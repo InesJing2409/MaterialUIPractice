@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import NavBar from './components/navbar/NavBar'
-import Search from './components/search/Search'
+import React, { Component } from "react";
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import NavBar from "./components/navbar/NavBar";
+import Search from "./components/search/Search";
 
+// Code taken from https://github.com/bradtraversy/pixabay_image_finder
 class App extends Component {
   render() {
     return (
@@ -11,7 +12,7 @@ class App extends Component {
           <NavBar />
           <Search />
         </div>
-        </MuiThemeProvider>
+      </MuiThemeProvider>
     );
   }
 }
